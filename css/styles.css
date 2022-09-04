@@ -1,8 +1,12 @@
 
+/* <!---------------------------------------------------------------- HTML/BODY STYLES -----------------------------------------------------------------------------> */
+html{
+  height: 100%;
+}
 
 html,body {
   width: 100%;
-  
+  background-color: black;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
@@ -20,31 +24,44 @@ body{
   color: white;
 }
 
-.header {
-  border: 3px solid white;
-  padding: 15px 0;
-  width: 100%;
+
+/* <!---------------------------------------------------------------- HEADER AND FOOTER STYLES-----------------------------------------------------------------------------> */
+
+ header .container-fluid {
+  border: 2px solid white;
+
+}
+.navbar{
+  background-color: black;
+}
+
+
+
+footer{
+  border: 2px solid white;
+}
+
+.social-icons p {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+footer .social-icons i{
+  font-size: 1.3125em;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  background: url('../img/hawaiiangraphic.jpg') center no-repeat;
-  background-size: cover;
+  align-items:center;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
-header h1{ 
-  font-size: 1.875em;
-  margin: 0;
-  width: 40%;
-  padding: 28px 20px 20px 20px;
-  border: 1px solid white;
-  background-color: black;
-  width: 50%;
-  justify-items: center;
+/* <!---------------------------------------------------------------- GLOBAL STYLES -----------------------------------------------------------------------------> */
 
- 
 
-}
 h2 {
   font-size: 1.125em;
 }
@@ -59,48 +76,28 @@ p{
 ul{
   margin: 0;
 }
-header .navbar{
-  padding: 20px 0;
-  color: white;
-  width: 60%;
-  font-size: 1em;
-  font-weight: 700;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+/* <!---------------------------------------------------------------- HERO-AREA STYLES -----------------------------------------------------------------------------> */
+
+.hero-area .container-fluid{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border: 2px solid white;
+
+  background: url('../img/hawaiiangraphic.jpg') center no-repeat;
+  background-size: cover;
 }
-.navbar ul li{
-  list-style: none;
-  border: 1px solid white;
+.hero-area h2, .hero-area p{
+
   background-color: black;
-  padding: 0 40px;
-  align-items: center;
-
-
-}
-.navbar ul li a{
-  text-decoration: none;
+  border-radius: 5%;
   color: white;
 }
-main{
-  border: 3px pink solid;
-}
 
-.hero-area{
-  border: 3px dotted yellow;
-}
+/* <!---------------------------------------------------------------- PROJECT STYLES -----------------------------------------------------------------------------> */
 
-.projects{
-  border: 3px dashed limegreen;
+.projects h2{
+  text-decoration: underline;
 }
 
 .project-list ul li{
@@ -108,30 +105,48 @@ main{
   font-size: 0.875em;
 }
 
-.project-list img{}
+.project-list {
+border:2px solid white;
 
-.project-list article {
-  border: 1px solid white;
+}
+.project-list .col{
+ height: 100%;
+}
+.project-list .col .box{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+.project-list .box {
+  border: 2px solid greenyellow;
   }
 
+
+
+/* <!---------------------------------------------------------------- ABOUT ME STYLES -----------------------------------------------------------------------------> */
 .about{
-  border: 3px solid blue;
-}
-
-.about p{}
-
-.skills {
-  border: 3px dashed purple;
+  border: 2px solid white;
 }
 
 
+
+/* <!---------------------------------------------------------------- SKILLS STYLES -----------------------------------------------------------------------------> */
 
 .skills ul li{
   font-size: 0.875em;
 }
+.skills {
+  border: 2px solid white;
+}
+
+/* <!---------------------------------------------------------------- CONTACT STYLES-----------------------------------------------------------------------------> */
 
 .contact{
-  border: 3px dotted orange;
+  border: 2px solid white;
 }
 
 .contact ul li{
@@ -141,21 +156,7 @@ main{
   color: white;
   text-decoration: none;
 }
-.contact a {
-  color: white;
-}
-.socials{
-  border: 3px solid white;
-}
-.social-icons a {
-  color: white;
-}
-.social-icons ul li{
-  list-style: none;
-}
-footer{
-  border: 3px solid red;
-}
+
 
 
 
