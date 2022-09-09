@@ -93,47 +93,41 @@
  <div class = "contact">
     <div class="row align-items-center justify-content-center">
         <div class ="col-lg-7 col-md-7 col-sm-12">
-            <div class="container">
-                <div class = "row justify-content-center">
-                
-                        <div class="form col-8 mt-4 mb-4">
-                            <form  action="https://app.99inbound.com/e/123" method="POST" target="_blank">
-                            <h3 style="text-align: center;">Contact Me</h3>
-                        
-                            <div class="form-group">
-                                <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text bg-white">
-                                    <i class="fa fa-user"></i>&nbsp
-                                    </span>
-                                </div>
-                                <input name="name" type="name" placeholder="Name" class="form-control border-left-0" required>
-                                </div>
-                            </div>
-                        
-                            <div class="form-group">
-                                <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text bg-white mt-2">
-                                    <i class="fa fa-envelope"></i>
-                                    </span>
-                                </div>
-                                <input name="email" type="email" placeholder="Email" class="form-control border-left-0 mt-2" required>
-                                </div>
-                            </div>
-                        
-                            <div class="form-group">
-                                <textarea class="form-control mt-2" id="message" rows="5" placeholder="Enter message" required></textarea>
-                            </div>
-                        
-                            <button type="submit" class="btn mt-2 mb-2">
-                                <i class="fa fa-paper-plane"></i> 
-                                Send
-                            </button>
-                            </form>
-                        </div>
-                
-                </div>
+            <div class="container mt-5">
+                <h1>Contact Me!</h1>
+                <form class="row g-3" action="https://formsubmit.co/egoullaud@gmail.com" method="POST" >
+                  <!-- Honeypot -->
+                  <input type="text" name="_honey" style="display: none;">
+        
+                  <!-- Disable Captcha -->
+                  <input type="hidden" name="_captcha" value="false">
+        
+                  <input type="hidden" name="_next" value="https://haydn5.github.io/formsubmitdemo/success.html" >
+        
+                  <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" name="name" id="firstName" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+                  </div>
+                  <div class="col-md-8">
+                    <label for="emailInfo" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="emailInfo" required>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="comments" class="form-label">Comments, questions?</label>
+                    <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
             </div>
         </div>
         <!-- <div class="col-lg-4 col-md-4 col-sm-12">
