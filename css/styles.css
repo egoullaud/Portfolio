@@ -20,7 +20,7 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  background-color: black;
+  background-color: #111;
   color: white;
 }
 
@@ -32,10 +32,12 @@ body{
 
 }
 .navbar{
-  background-color: black;
+  background-color: #111;
 }
 
-
+.navbar-nav ul li {
+padding-left: 20px;
+}
 
 footer{
   border: 2px solid white;
@@ -53,7 +55,7 @@ footer .social-icons i{
   justify-content: center;
   align-items:center;
   background-color: white;
-  color: black;
+  color: #222;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -92,7 +94,7 @@ ul{
 }
 .hero-area h1, .hero-area p{
   padding: 20px;
-  background-color: black;
+  background-color: #111;
   border-radius: 5%;
   color: white;
 }
@@ -169,6 +171,9 @@ border:2px solid white;
 .about{
   border: 2px solid white;
 }
+.about img{
+  object-fit: contain;
+}
 
 
 
@@ -185,6 +190,30 @@ border:2px solid white;
 
 .contact{
   border: 2px solid white;
+}
+
+.contact .form{
+  border: 2px solid greenyellow;
+  background-color: #222;
+}
+.contact .btn{
+  border: 3px solid greenyellow;
+  color: white;
+  border-image-slice: 1;
+  background-color: #222;
+  /* -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+  /* border-image-source:  var(--gradient) !important;  */
+  text-decoration: none;
+  transition: all .4s ease;
+}
+.contact .btn:hover, .btn:focus{
+  background: #222;
+  /* -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important; */
+  border: 3px solid white !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
 }
 
 .contact ul li{
