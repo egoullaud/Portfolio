@@ -91,13 +91,13 @@
                         <div class = "hero-text">
                             <div class = "row justify-content-center align-items-center">
                                 
-                                    <div class = "col-6">
-                                        <h2> Welcome! I'm Elizabeth and I code websites.</h2>
+                                    <div class = "col-lg-6 col-md-8">
+                                        <h1> Welcome! I'm Elizabeth and I code websites.</h1>
                                     </div>
                             </div>
-                            <div class = "row justify-content-center"> 
-                                    <div class = "col-4">
-                                        <p> I'm a Front End Web Developer in Vancouver, BC. </p>
+                            <div class = "row justify-content-center align-items-center"> 
+                                    <div class = "col-lg-4 col-md-6 col-sm-6">
+                                        <p> Front End Web Developer in Vancouver, BC. </p>
                                     </div>
                             </div>
                         </div>
@@ -107,137 +107,253 @@
 <!---------------------------------------------------------------- PROJECT SECTION ----------------------------------------------------------------------------->
            
             <div class = "projects">
-                <div class = "container overflow-hidden">
-                    <div class = "project-list"> 
-                        <div class = "row py-4">
-                            <div class = "col-6">
-                                <h2> Featured Projects</h2>
+                <div class = "container mx-auto mt-4">
+                    <div class="row">
+                        <div class = "project-list">
+                            <div class = "row">
+                                    <div class = "col-md-4">
+                                        <div class ="card">
+                                                <img  
+                                                class = "img-fluid" 
+                                                src="img/sticky-notes.jpg" 
+                                                alt = "stickynotes"/>
+                                            <div class = "card-body">
+                                                    <h5 class = "card-title"> Sticky Notes</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted">React App</h6>
+                                                
+                                                    <p class = "card-text"> Brief description: 
+                                                        An interactive app that lets 
+                                                        users create, edit, and delete notes to keep track 
+                                                        of to-do items.   </p>
+                                                <div class="card-list">
+                                                    <div class="row">
+                                                    <div class = "col-6">
+                                                        <h3>Skills</h3>
+                                                        <ul> 
+                                                            <li> Vanilla JavaScript ES6</li>
+                                                            <li> Managing data flow</li>
+                                                            <li> Manipulating the DOM</li>
+                                                            <li> CSS3 & HTML5</li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <div class = "col-6">
+                                                        <h3>Tools</h3>
+                                                            <ul> 
+                                                            <li>  CodeSandBox</li>
+                                                            <li>  Chrome DevTools</li>
+                                                            </ul> 
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-evenly">
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class= "fas fa-link"></i> Visit Site</a>
+                                                    </div>
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class="fab fa-github"></i> GitHub</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>           
+                                    </div>
+                                    <div class = "col-md-4">
+                                        <div class ="card">
+                                                <img class = "img-fluid" src="img/github-repo.jpg" alt = "repogallery"/>
+                                            <div class = "card-body">
+                                                    <h5 class = "card-title"> GitHub Repo Gallery</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted"> API Gallery Site</h6>
+                                                    <p class = "card-text">Brief description: A gallery of
+                                                        repositories from GitHub that allows users to view a 
+                                                        user profile,
+                                                        search, and access GitHub repositories.
+                                                    </p>
+                                                <div class="card-list">
+                                                    <div class="row">
+                                                        <div class = "col-6">
+                                                            <h3>Skills</h3>
+                                                            <ul> 
+                                                                <li>CSS3</li>
+                                                                <li>Vanilla JavaScript</li>
+                                                                <li>APIs</li>
+                                                                <li>Manipulating the DOM</li>
+                                                                <li>Git</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class = "col-6">
+                                                            <h3>Tools</h3>
+                                                            <ul> 
+                                                                <li>CodeSandBox</li>
+                                                                <li>GitHub</li>
+                                                                <li>Chrome DevTools</li>
+                                                            </ul> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-evenly">
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class= "fas fa-link"></i> Visit Site</a>
+                                                    </div>
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class="fab fa-github"></i> GitHub</a>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>  
+                                    </div>
+                                    <div class = "col-md-4">
+                                        <div class ="card">
+                                                    <img class = "img-fluid" src="img/guess-the-word.jpg" alt ="guesstheword"/> 
+                                            <div class = "card-body">
+                                                <h5 class = "card-title"> Guess the Word Game</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">JavaScript Game</h6>
+                                                <p class = "card-text">
+                                                    Brief description: A guessing game that allows 
+                                                    user to input letters to guess a word! 
+                                                    The game counts down how many guesses are remaining
+                                                    and allows the user to play again and again.
+                                                </p>
+                                            <div class="card-list">
+                                                <div class="row">
+                                                    <div class = "col-6">
+                                                        <h3>Skills</h3>
+                                                        <ul>   
+                                                            <li>Vanilla Javascript</li>
+                                                            <li>APIs</li>
+                                                            <li>Manipulate the DOM</li>
+                                                            <li>Version control</li>
+                                                            <li>Git</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h3>Tools</h3>
+                                                        <ul> 
+                                                            <li>GitHub</li>
+                                                            <li>CodeSandBox</li>
+                                                            <li>Text editor</li>
+                                                            <li>Chrome DevTools</li>
+                                                        </ul>  
+                                                    </div>
+                                                </div>
+                                            </div>  
+                                    
+                                            <div class="row justify-content-evenly">
+                                                <div class="col-4">
+                                                        <a href="#" class = "btn mr-2"><i class= "fas fa-link"></i> Visit Site</a>
+                                                </div>
+                                                <div class="col-4">
+                                                        <a href="#" class = "btn mr-2"><i class="fab fa-github"></i> GitHub</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                    <div class = "col-md-4">
+                                        <div class ="card">
+                                            <img class = "img-fluid" src="img/unplugged.jpg" alt = "unplugged"/> 
+                                            <div class = "card-body">
+                                                    <h5 class = "card-title">Unplugged Retreat</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Multi-page Website </h6>
+                                                    <p class = "card-text">
+                                                        Brief description: A multi-page website for a 
+                                                        business retreat based 
+                                                        on a mock-up on Photoshop. Website allows user
+                                                        to view different pages, and will
+                                                        automatically adjust to fit any size screen.
+                                                    </p>
+                                            <div class="card-list">
+                                                <div class="row">
+                                                    <div class = "col-6">
+                                                        <h3>Skills</h3>
+                                                        <ul>   
+                                                            <li>CSS3 & HTML5 </li>
+                                                            <li>Flexbox </li>
+                                                            <li>Media Queries</li>
+                                                            <li>Responsive Typography</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <h3>Tools</h3>
+                                                        <ul> 
+                                                            <li>GitHub</li>
+                                                            <li>Adobe Photoshop</li>
+                                                            <li>Text editor</li>
+                                                            <li>Chrome DevTools</li>
+                                                        </ul> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                <div class="row justify-content-evenly">
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class= "fas fa-link"></i> Visit Site</a>
+                                                    </div>
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class="fab fa-github"></i> GitHub</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class = "col-md-4">
+                                        <div class ="card">
+                                                    <img class = "img-fluid" src="img/rogue-pickings.jpg" alt = "roguepickings"/> 
+                                            <div class = "card-body">
+                                                    <h5 class = "card-title"> Rogue Pickings</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Responsive Website </h6>
+                                                    <p class = "card-text">
+                                                        Brief description: A single page website for a food truck company 
+                                                        created from a mock-up on Photoshop. 
+                                                    </p> 
+                                            <div class="card-list">
+                                                <div class="row">
+                                                    <div class = "col-6">
+                                                        <h3>Skills</h3>
+                                                        <ul> 
+                                                            <li>CSS3 & HTML5 </li>
+                                                            <li>Flexbox</li>
+                                                            <li>Media Queries</li>
+                                                            <li>Git and the command line</li>
+                                                            <li>Responsive Typography</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class= "col-6">
+                                                        <h3>Tools</h3>
+                                                        <ul> 
+                                                            <li>GitHub</li>
+                                                            <li>Adobe Photoshop </li>
+                                                            <li>Text editors</li>
+                                                            <li>Chrome DevTools</li>
+                                                        </ul> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                <div class="row justify-content-evenly">
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class= "fas fa-link"></i> Visit Site</a>
+                                                    </div>
+                                                    <div class="col-4">
+                                                            <a href="#" class = "btn mr-2"><i class="fab fa-github"></i> GitHub</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
-                        <div class = "row gy-5 gx-5 px-4 py-4">
-                                <div class = "col-lg-4 col-md-6 col-sm-12">
-                                    <div class ="box p-4 bg-light text-dark">
-                                        <h2>Sticky Note App </h2>
-                                        <img  
-                                        class = "img-fluid" 
-                                        src="img/stickynotes.png" 
-                                        alt = "stickynotes"/>
-                                                
-                                        <p> Brief description: An interactive app that lets 
-                                            users create, edit, and delete notes to keep track 
-                                            of to-do items.   </p>
-                                        <h2>Skills</h2>
-                                        <ul> 
-                                            <li> Vanilla JavaScript, ES6, JSX(React), Managing 
-                                                data flow, Manipulating the DOM, CSS3, HTML5.</li>
-                                        </ul>
-                                        <h2>Tools</h2>
-                                            <ul> 
-                                                <li>  CodeSandBox, Chrome DevTools.</li>
-                                            </ul> 
-                                                    
-                                    </div>
-                                </div>
-                                <div class = "col-lg-4 col-md-6 col-sm-12">
-                                    <div class ="box p-4 bg-light text-dark">
-                                        <h2>GitHub Repo Gallery </h2>
-                                                <img class = "img-fluid" src="img/repogallery.png" alt = "repogallery"/>
-                                                
-                                                <p>Brief description: A gallery of repositories from a GitHub page that allows users to view a user profile,
-                                                    search, and view GitHub repositories.
-                                                    </p>
-                                                <h2>Skills</h2>
-                                                <ul> 
-                                                
-                                                        <li>CSS3, Vanilla JavaScript, APIs, and manipulating the DOM.</li>
-                                                    </ul>
-                                                <h2>Tools</h2>
-                                                <ul> 
-                                                        <li>CodeSandBox, GitHub, Chrome DevTools.</li>
-                                                    </ul> 
-                                    </div>
-                                </div>
-                                <div class = "col-lg-4 col-md-6 col-sm-12">
-                                    <div class ="box p-4 bg-light text-dark">
-                                        <h2>Guess the Word Game</h2> 
-                                                <img class = "img-fluid" src="img/guesstheword.png" alt ="guesstheword"/> 
-                                            
-                                                <p>
-                                                    Brief description: A guessing game that allows user to input letters to guess a word! 
-                                                    The game counts down how many guesses are remaining and allows the user to play again and again.
-                                                </p>
-                                                <h2>Skills</h2>
-                                                <ul>   
-                                                    <li>Vanilla Javascript and APIs, manipulate the DOM, version control, and Git.</li>
-                                                </ul>
-                                                <h2>Tools</h2>
-                                                <ul> 
-                                                    <li>GitHub, CodeSandBox, Text editor, Chrome DevTools.</li>
-                                                </ul>  
-                                    </div>
-                                </div>
-
-                                <div class = "col-lg-4 col-md-6 col-sm-12">
-                                    <div class ="box p-4 bg-light text-dark">
-                                        <h2>Unplugged Retreat</h2> 
-                                                <img class = "img-fluid" src="img/unplugged.png" alt = "unplugged"/> 
-                                                
-                                                <p>
-                                                    Brief description: A multi-page website for a business retreat based 
-                                                    on a mock-up on Photoshop. Website allows user to view different pages, and will
-                                                    automatically adjust to fit any size screen. 
-                                                    
-                                                </p>
-                                                <h2>Skills</h2>
-                                                <ul>   
-                                                    <li>CSS3, HTML5 using Flexbox, Media Queries, and Responsive Typography. </li>
-                                                </ul>
-                                                <h2>Tools</h2>
-                                                <ul> 
-                                                    <li>GitHub, Photoshop, Text editor, Chrome DevTools.  </li>
-                                                </ul> 
-                                    </div>
-                                </div>
-                                <div class = "col-lg-4 col-md-6 col-sm-12">
-                                    <div class ="box p-4 bg-light text-dark">
-                                        <h2>Rogue Pickings</h2>
-                                                <img class = "img-fluid" src="img/roguepickings.png" alt = "roguepickings"/> 
-                                                
-                                                <p>
-                                                    Brief description: A single page website for a food truck company 
-                                                    created from a mock-up on Photoshop. 
-                                                    
-                                                </p> 
-                                                <h2>Skills</h2>
-                                                <ul> 
-                                                    <li>CSS3, HTML5, 
-                                                        Flexbox, Media Queries, Media Queries, 
-                                                        Github, Git and the command line, and Responsive Typography.</li>
-                                                </ul>
-                                                <h2>Tools</h2>
-                                                <ul> 
-                                                    <li>GitHub, Photoshop, Text editors, Chrome DevTools. </li>
-                                                </ul> 
-                                    </div>
-                                </div>
-                        
                     </div>
                 </div>
             </div>
 <!---------------------------------------------------------------- ABOUT ME ----------------------------------------------------------------------------->
             <div class = "about">      
                 <div class="container">
-                    <div class = "row">
-                        <div class = "col-12">
-                            <h2> Meet Elizabeth</h2>
-                        </div>
-                    </div>
+                   
                     <div class = "col-container">
                         <div class = "row align-items-center justify-content-center">
                             <div class="col-lg-6 col-sm-4 col-md-4">
                                     <img  class = "img-fluid " src ="img/profilepic.jpg" alt = "profile pic" />
                             </div>
                             <div class="col-lg-6 col-sm-8 col-md-8">
+                                <h2> Meet Elizabeth</h2>
                                 <p> 
                                     I grew up in the USA playing video games (Hello, World of Warcraft!), and later
                                     relocated to Vancouver and earned an Environmental Science degree.
@@ -267,10 +383,15 @@
                             <h2> Skills</h2>
                             <ul> 
                                 <li>CSS3 & HTML5</li>
-                                <li>Vanilla JS, ES6, and React(JSX)</li>
+                                <li>Vanilla JS ES6 </li>
+                                <li>React(JSX)</li>
                                 <li>Git and Github</li>
-                                <li>Flexbox, Media Queries, APIs</li>
+                                <li>Flexbox</li>
+                                <li>Media Queries, APIs</li>
                                 <li>FTP and Web Hosting</li>
+                                <li>Bootstrap 5</li>
+                                <li>Responsive Typography</li>
+                                <li>Responsive Websites</li>
                             </ul>
                         </div>
                         <div class = "col-6">
@@ -296,26 +417,34 @@
                         </div>
                             <div class = "col-12">
                             <p> Let's connect!</p>
-                            <ul>
-                                <li> <a href="mailto:egoullaud@gmail.com" target= "_blank"> 
-                                    <i class = "fa fa-envelope-o"></i> 
-                                    egoullaud@gmail.com</a></li>
-                                <li> 
-                                    <a href="https://www.linkedin.com/in/elizabeth-goullaud/" target="_blank">
-                                        <i class="fab fa-linkedin"></i> LinkedIn</a> </li>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul>
+                                        <li> <a href="mailto:egoullaud@gmail.com" target= "_blank"> 
+                                            <i class = "fa fa-envelope-o"></i> 
+                                            egoullaud@gmail.com</a></li>
+                                        <li> 
+                                            <a href="https://www.linkedin.com/in/elizabeth-goullaud/" target="_blank">
+                                                <i class="fab fa-linkedin"></i> LinkedIn</a> </li>
                                         <li>
-                                    <a href="https://github.com/egoullaud" target="_blank">
-                                        <i class="fab fa-github"></i> GitHub</a></li>
-                                <li>
-                                    <a href="https://codesandbox.io/u/egoullaud" target="_blank">
-                                        <i class="fa fa-square-o"></i> CodeSandbox</a></li>
-                                <li> 
-                                    <a href="https://www.instagram.com/egoullaud/" target="_blank">
-                                        <i class="fab fa-instagram"></i> Instagram</a></li>
-                                <li> 
-                                    <a href="https://www.facebook.com/elizabeth.goullaud.3/" target="_blank">
-                                        <i class="fab fa-facebook-f"></i> Facebook</a></li>
-                            </ul>
+                                            <a href="https://github.com/egoullaud" target="_blank">
+                                                <i class="fab fa-github"></i> GitHub</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul>
+                                        <li>
+                                            <a href="https://codesandbox.io/u/egoullaud" target="_blank">
+                                                <i class="fa fa-square-o"></i> CodeSandbox</a></li>
+                                        <li> 
+                                            <a href="https://www.instagram.com/egoullaud/" target="_blank">
+                                                <i class="fab fa-instagram"></i> Instagram</a></li>
+                                        <li> 
+                                            <a href="https://www.facebook.com/elizabeth.goullaud.3/" target="_blank">
+                                                <i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -348,7 +477,7 @@
                                         <i class="fab fa-facebook-f"></i></a>
                                   </p>
 
-                                </ul>
+                              
                             </div>
                         </div>
                     </div>
