@@ -126,7 +126,7 @@ object-fit: contain;
 
 
   }
-  .project-list .btn{
+  .project-list .card .btn{
   
     border: 3px solid greenyellow;
     color: white;
@@ -139,7 +139,7 @@ object-fit: contain;
     transition: all .4s ease;
   }
 
-  .project-list .btn:hover, .btn:focus{
+  .project-list .card .btn:hover, .btn:focus{
     background: #222;
     /* -webkit-background-clip: none !important;
     -webkit-text-fill-color: #fff !important; */
