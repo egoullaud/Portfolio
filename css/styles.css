@@ -111,10 +111,10 @@ border:2px solid white;
   height: 15rem;
   padding: 10px;
 }
-.project-list .card img {
- margin: 15px 10px;
-  border: 1px solid white;
-  
+.project-list .card a {
+margin: 15px 10px;
+border: 1px solid white;
+object-fit: contain;
 
 }
 
