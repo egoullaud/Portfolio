@@ -2,11 +2,11 @@
 /* <!---------------------------------------------------------------- HTML/BODY STYLES -----------------------------------------------------------------------------> */
 html{
   height: 100%;
+
 }
 
 html,body {
   width: 100%;
-  background:#111 !important;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
@@ -20,16 +20,21 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  background-color: #111;
+  background: url('/Users/egoul/Documents/Skillcrush/Portfolio/img/hawaiiangraphic.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size:cover ;
   color: white;
+  background-color: #111;
+
 }
 
 
 /* <!---------------------------------------------------------------- HEADER AND FOOTER STYLES-----------------------------------------------------------------------------> */
 
  header .container-fluid {
-  border: 2px solid white;
-
+  /* border: 2px solid white; */
+background-color: #111;
+width: 100%;
 }
 .navbar{
   background-color: #111;
@@ -39,8 +44,9 @@ body{
 padding-left: 20px;
 }
 
-footer{
-  border: 2px solid white;
+footer .socials{
+  /* border: 2px solid white; */
+  background-color: #111;
 }
 
 .social-icons p {
@@ -87,9 +93,9 @@ ul{
 .hero-area .container-fluid{
   padding-top: 100px;
   padding-bottom: 100px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 
-  background: url('../img/hawaiiangraphic.jpg') center no-repeat;
+  /* background: url('../img/hawaiiangraphic.jpg') center no-repeat; */
   background-size: cover;
 }
 .hero-area h1, .hero-area p{
@@ -103,7 +109,7 @@ ul{
 
 
 .projects {
-border:2px solid white;
+/* border:2px solid white; */
 }
 
 .project-list .card-img-top{
@@ -113,7 +119,7 @@ border:2px solid white;
 }
 .project-list .card a {
 margin: 15px 10px;
-border: 1px solid white;
+/* border: 1px solid white; */
 object-fit: contain;
 
 }
@@ -123,6 +129,7 @@ object-fit: contain;
   background-color: #222;
   color: white;
   margin-bottom: 2rem;
+  height: 100%;
 
 
   }
@@ -147,13 +154,34 @@ object-fit: contain;
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
   }
+  .project-list .btn{
+  
+    border: 3px solid white;
+    color: white;
+    border-image-slice: 1;
+    background-color: #222;
+    /* -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important; */
+    /* border-image-source:  var(--gradient) !important;  */
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+
+  .project-list .btn:hover, .btn:focus{
+    background: #222;
+    /* -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important; */
+    border: 3px solid greenyellow !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
 .project-list h3{
   text-decoration: underline;
   font-size: 1.15em;
   text-align: center;
 }
 .project-list .card-list{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-bottom: 10px;
 }
 
@@ -166,15 +194,58 @@ object-fit: contain;
   font-size: .875em;
 }
 
+/*-----------------------------ABOUT-PORTFOLIO HOME-----------*/
+.about-home .container-fluid{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* border: 2px solid white; */
 
+  /* background: url('../img/hawaiiangraphic.jpg') center no-repeat; */
+  background-size: cover;
+}
+.about-home h1, .about-home p{
+  padding: 20px;
+  background-color: #111;
+  border-radius: 5%;
+  color: white;
+}
+.about-home .btn{
+  
+  border: 3px solid white;
+  color: white;
+  border-image-slice: 1;
+  background-color: #222;
+  /* -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important; */
+  /* border-image-source:  var(--gradient) !important;  */
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.about-home .btn:hover, .btn:focus{
+  background: #222;
+  /* -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #fff !important; */
+  border: 3px solid greenyellow !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
 /* <!---------------------------------------------------------------- ABOUT ME STYLES -----------------------------------------------------------------------------> */
 .about{
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  background-color: #111;
+}
+.about h2{
+  text-decoration: underline;
+  text-align: center;
 }
 .about img{
   object-fit: contain;
 }
 
+.about .container-fluid{
+  background-color: #111;
+}
 
 
 /* <!---------------------------------------------------------------- SKILLS STYLES -----------------------------------------------------------------------------> */
@@ -189,10 +260,10 @@ object-fit: contain;
 /* <!---------------------------------------------------------------- CONTACT STYLES-----------------------------------------------------------------------------> */
 
 .contact{
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
-.contact .form{
+.contact .container{
   border: 2px solid greenyellow;
   background-color: #222;
 }
