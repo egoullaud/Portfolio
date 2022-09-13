@@ -15,14 +15,14 @@ html,body {
 }
 
 body{
-  font-family: Helvetica;
+  font-family: 'Raleway', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  background: url('/Users/egoul/Documents/Skillcrush/Portfolio/img/hawaiiangraphic.jpg') no-repeat;
+  /* background: url('/Users/egoul/Documents/Skillcrush/Portfolio/img/hawaiiangraphic.jpg') no-repeat;
   background-attachment: fixed;
-  background-size:cover ;
+  background-size:cover ; */
   color: white;
   background-color: #111;
 
@@ -37,10 +37,14 @@ background-color: #111;
 width: 100%;
 }
 .navbar{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   background-color: #111;
+  text-transform: uppercase;
 }
 
 .navbar-nav ul li {
+
 padding-left: 20px;
 }
 
@@ -66,18 +70,28 @@ footer .social-icons i{
   width: 30px;
   height: 30px;
 }
+footer p {
+  font-family: 'Raleway', sans-serif;
+}
 
 /* <!---------------------------------------------------------------- GLOBAL STYLES -----------------------------------------------------------------------------> */
 
 h1{
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
 }
-
+span{
+  font-family: 'Lora';
+  font-style:italic;
+}
 h2 {
   font-size: 1.125em;
 }
 h4{ 
   font-size: .75em;
+}
+h5, h6 {
+  font-family: 'Lora', sans-serif;
 }
 p{
   font-size: 0.875em;
@@ -103,6 +117,7 @@ ul{
   background-color: #111;
   border-radius: 5%;
   color: white;
+  border: 1px solid white;
 }
 
 /* <!---------------------------------------------------------------- PROJECT STYLES -----------------------------------------------------------------------------> */
@@ -208,6 +223,7 @@ object-fit: contain;
   background-color: #111;
   border-radius: 5%;
   color: white;
+  border: 1px solid white;
 }
 .about-home .btn{
   
