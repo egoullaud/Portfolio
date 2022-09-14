@@ -260,6 +260,9 @@ object-fit: contain;
   /* border: 2px solid white; */
   background-color: #111;
 }
+.about img{
+  height: 50%;
+}
 .about h2{
   text-decoration: underline;
   text-align: center;
