@@ -310,3 +310,17 @@ text-decoration: none;
   border: 2px solid greenyellow;
   background-color: #222;
 }
+.form-submit  .btn{
+  border: 3px solid greenyellow;
+  color: white;
+  border-image-slice: 1;
+  background-color: #222;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+.form-submit  .btn:hover, .btn:focus{
+  background: #222;
+  border: 3px solid white !important; 
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
