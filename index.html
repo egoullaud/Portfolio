@@ -7,291 +7,239 @@
     <meta name="author" content="Elizabeth Goullaud">
     <Title> Elizabeth Goullaud Portfolio</Title>
 
-    <!------------------ BOOTSTRAP ------------------------------------------>
+    <!---- BOOTSTRAP --->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!------------------ CSS FILES ------------------------------------------------------>
+    <!----- CSS FILES --->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <!------------------ FONT AWESOME LINKS  ---------------------------------------->
+    <!----- FONT AWESOME LINKS  ---->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/141cbdc03b.js"></script>
-    <!------------------ FONT LINKS  ---------------------------------------->
+    <!--------- FONT LINKS  ---->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lora&family=Raleway&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Raleway&family=Josefin+Sans&family=Parisienne&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-------------------------------------------------------- HEADER -------------------------------------------------------------------------------->
+    <!-- Body container -->
+    <div class="body container-fluid gx-0">
+        <!-- HEADER -->
         <header>
-            <div class="container-fluid fixed-top">
-                <div class="row">
-                    <div class="col">
-                        <nav class="navbar
-                            navbar-expand-md 
-                            navbar-dark bg-custom ">
-                            <a href="./index.html" class="nav-link me-auto"><img src="img/logo.jpg" alt="logo"
-                                    height="30">
-                            </a>
-                            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                                class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
+            <nav class="navbar navbar-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img src="./img/hummingbird.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse" id="navbarNav">
 
-                                    <li class="nav-item active">
-                                        <a href="about/index.html" class="nav-link"> About</a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a href="projects/index.html" class="nav-link"> Projects</a>
-                                    </li>
-                                    <li class="nav-item active">  
-                                            <a href ="./skills/index.html" 
-                                            class = "nav-link"
-                                            > Skills</a> </li>
-                                   
-                                    <li class="nav-item active">
-                                        <a href="contact/index.html" class="nav-link"> Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+
+                            <li class="nav-item">
+                                <a href="./about/index.html" class="nav-link"> About</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="./projects/index.html" class="nav-link"> Projects</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="./skills/index.html" class="nav-link"> Skills</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a href="./contact/index.html" class="nav-link"> Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <main>
+            <!-- HERO-AREA -->
+            <div class="title-area">
+                <div class="container-fluid pt-5">
+                    <div class="row text-center align-items-center">
+                        <div class="col-12">
+                            <h1 class="display-name">Elizabeth Goullaud</h1>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center text-center">
+                        <div class="col-6">
+                            <p class="slogan"> You dream, I build</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <main>
-            <!---------------------------------------------------------------- HERO-AREA ----------------------------------------------------------------------------->
             <div class="hero-area">
                 <div class="container-fluid">
-                    <div class="hero-text">
-                        <div class="row justify-content-center align-items-center">
-
-                            <div class="col-lg-10 col-md-8 col-sm-12 text-center">
-                                <h1> <span>Welcome!</span> I'm Elizabeth, your friendly neighborhood coder.</h1>
-                            </div>
+                    <div class="row justify-content-evenly align-items-center">
+                        <div class="col-lg-5 col-md-6 col-sm-5">
+                            <h1 class="text-start pt-5">Web developer in Vancouver, BC creating
+                                beautiful websites for artists and small businesses.</h1><br>
+                                <a href="./about/index.html" class="btn btn-outline-dark btn-md mt-2 mb-5"> About me </a>
+                            
                         </div>
-                        <div class="row justify-content-center align-items-center">
-                            <div class="col-lg-4 col-md-6 col-sm-12 text-center mt-3">
-                                <p class="lead"> Front End Web Developer in Vancouver, BC. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!---------------------------------------------------------------- PROJECT SECTION ----------------------------------------------------------------------------->
-            <div class="projects">
-                <div class="container mx-auto mt-4">
-                    <div class="row">
-                        <div class="project-list">
-                            <div class="row justify-content-center ">
-                                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="card">
-                                        <a href="https://ejroqy.csb.app/" target="_blank">
-                                            <img class="img-fluid" src="./img/sticky-notes.jpg" alt="stickynotes" />
-                                        </a>
-                                        <div class="card-body">
-                                            <h5 class="card-title"> Sticky Notes</h5>
-                                            <h6 class="card-subtitle mb-2 text-muted">React App</h6>
-
-                                            <p class="card-text"> Brief description:
-                                                An interactive app that lets
-                                                users create, edit, and delete notes to keep track
-                                                of to-do items. </p>
-                                            <div class="card-list">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <h3>Skills</h3>
-                                                        <ul>
-                                                            <li> Vanilla JavaScript ES6</li>
-                                                            <li> Managing data flow</li>
-                                                            <li> Manipulating the DOM</li>
-                                                            <li> CSS3 & HTML5</li>
-
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h3>Tools</h3>
-                                                        <ul>
-                                                            <li> CodeSandBox</li>
-                                                            <li> Chrome DevTools</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="card">
-                                        <a href="https://egoullaud.github.io/project-repo-gallery/" target="_blank">
-                                            <img class="img-fluid" src="./img/github-repo.jpg" alt="repogallery" />
-                                        </a>
-                                        <div class="card-body">
-                                            <h5 class="card-title"> GitHub Repo Gallery</h5>
-                                            <h6 class="card-subtitle mb-2 text-muted"> API Gallery Site</h6>
-                                            <p class="card-text">Brief description: A gallery of
-                                                repositories from GitHub that allows users to view a
-                                                user profile,
-                                                search, and access GitHub repositories.
-                                            </p>
-                                            <div class="card-list">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <h3>Skills</h3>
-                                                        <ul>
-                                                            <li>CSS3</li>
-                                                            <li>Vanilla JavaScript</li>
-                                                            <li>APIs</li>
-                                                            <li>Manipulating the DOM</li>
-                                                            <li>Git</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h3>Tools</h3>
-                                                        <ul>
-                                                            <li>CodeSandBox</li>
-                                                            <li>GitHub</li>
-                                                            <li>Chrome DevTools</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                                    <div class="card">
-                                        <a href="https://egoullaud.github.io/guess-the-word/" target="_blank">
-                                            <img class="img-fluid" src="./img/guess-the-word.jpg" alt="guesstheword" />
-                                        </a>
-                                        <div class="card-body">
-                                            <h5 class="card-title"> Guess the Word Game</h5>
-                                            <h6 class="card-subtitle mb-2 text-muted">JavaScript Game</h6>
-                                            <p class="card-text">
-                                                Brief description: A guessing game that allows
-                                                user to input letters to guess a word!
-                                                The game counts down how many guesses are remaining
-                                                and allows the user to play again and again.
-                                            </p>
-                                            <div class="card-list">
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <h3>Skills</h3>
-                                                        <ul>
-                                                            <li>Vanilla Javascript</li>
-                                                            <li>APIs</li>
-                                                            <li>Manipulate the DOM</li>
-                                                            <li>Version control</li>
-                                                            <li>Git</li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <h3>Tools</h3>
-                                                        <ul>
-                                                            <li>GitHub</li>
-                                                            <li>CodeSandBox</li>
-                                                            <li>Text editor</li>
-                                                            <li>Chrome DevTools</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center align-items-center mt-4">
-                                <div class="col-sm-12 col-md-8 col-lg-4 text-center">
-                                    <a href="projects/index.html" class="btn btn-outline-light mb-4 btn-lg">See
-                                        Projects</a>
-                                </div>
-                            </div>
+                        <div class="col-lg-4 col-md-5 col-sm-2">
+                            <img src="./img/hero-image.png" class=" hero-image img-fluid m-4 px-4"
+                                style="border-radius:50%; max-height:50%; background-position: center;">
                         </div>
                     </div>
                 </div>
             </div>
-            <!---------------------------------------------------------------- ABOUT ME ----------------------------------------------------------------------------->
-            <div class="about-home">
+
+            <!-- PROJECT SECTION -->
+
+            <div class="project-gallery">
+                <div class="text-area container-fluid pt-3 pb-5 px-3">
+                    <div class="row justify-content-evenly align-item-center p-2">
+                        <h1 class="pt-5">See what I've been working on...</h1>
+                    </div>
+                    <div class="row justify-content-evenly align-item-center pt-2 pb-5 ">
+                        <div class="col-sm-12 col-md-8">
+                            <a href="https://egoullaud.github.io/unplugged-project/" target="_blank">
+                                <img class="img-fluid" src="./img/unplugged.jpg" alt="unplugged" />
+                            </a>
+                        </div>
+                        <div class="col-md-4 pt-2">
+                            <h3> Unplugged Retreat</h3>
+                            <p> A fun little site that is responsive across all devices and invites you to a relaxing
+                                corporate retreat!</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly align-item-center pt-2">
+                        <div class="col-sm-12 col-md-8">
+                            <a href="https://egoullaud.github.io/rogue-pickings/" target="_blank">
+                                <img class="img-fluid" src="./img/rogue-pickings.jpg" alt="roguepickings" />
+                            </a>
+                        </div>
+                        <div class="col-md-4 p-4 pt-2">
+                            <h3> Rogue Pickings</h3>
+                            <p>Check out this delicious website featuring responsive web design, and all the information
+                                you need for lunch!</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center pt-2">
+                        <div class="col-sm-12 col-md-8 col-lg-4 text-center">
+                            <a href="projects/index.html" class="btn btn-outline-dark mb-4 btn-md">See
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--- ABOUT ME -->
+            <div class="about-home pt-5">
                 <div class="container-fluid">
                     <div class="row justify-content-center align-items-center">
-
-                        <div class="col-lg-4 col-md-8 text-center">
-                            <h1> Thank you for visiting my portfolio!</h1>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-lg-6 col-md-6 col-sm-8 text-center mt-3">
-                            <p>
-                                I had so much fun creating this website using Bootstrap v5!
-                                <br>
-                                I am looking for a role in Front End Web Development, and am actively working in
-                                freelance
-                                to build experience and practice my skills.
+                        <div class="col-sm-8 col-md-8">
+                            <h1>Why work with me?</h1>
+                                <p class="px-5"> I have an extensive background in business, research, and creativity!
+                                I've been published in a scienfitic journal, run a successful small business,
+                                and worked in environmental consulting. I have a great work ethic, and I am here to
+                                help you have the website of your dreams. Let's do this thing!
                             </p>
                         </div>
-                    </div>
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-sm-12 col-md-8 col-lg-4 text-center">
-                            <a href="about/index.html" class="btn btn-outline-light mb-4 btn-lg">Meet Me!</a>
+
+                        <div class="row justify-content-evenly pb-3 px-5">
+                            <div class="col-md-2 col-lg-3 col-sm-2">
+                                <a href="/about/index.html"
+                                    class="btn btn-outline-dark btn-md text-nowrap mt-2 text-center"> More about me </a>
+                            </div>
+                            <div class="col-md-2 col-lg-3 col-sm-2">
+                                <a href="/contact/index.html"
+                                    class="btn btn-outline-dark text-nowrap btn-md mt-2 text-center"> Let's work
+                                    together</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!---------------------------------------------------------------- SKILLS ----------------------------------------------------------------------------->
+            <!-- SKILLS -->
+            <div class="skills-home">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="skills-home-gallery">
+                            <h1 class="text-center pt-5">Technologies I love</h1>
+                            <div class="row justify-content-center text-center">
+                                <div class="col-2"><i class="fab fa-html5"></i><br>HTML5</div>
+                                <div class="col-2"><i class="fab fa-css3"></i><br>CSS3</div>
+                                <div class="col-2"><i class="fab fa-js"></i><br>JavaScript</div>
+                            </div>
+                            <div class="row justify-content-center text-center">
+                                <div class="col-2"><i class="fab fa-react"></i><br>React</div>
+                                <div class="col-2"><i class="fab fa-github "></i><br>GitHub</div>
+                            </div>
 
+                            <div class="row justify-content-evenly pb-3">
+                                <div class="col-2">
+                                    <a href="/about/index.html" class="btn btn-outline-dark btn-md mt-2 text-nowrap">
+                                        More
+                                        skills</a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="/contact/index.html" class="btn btn-outline-dark btn-md mt-2 me-5">
+                                        Resume</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-        <!---------------------------------------------------------------- FOOTER ----------------------------------------------------------------------------->
-        <footer>
-            <div class="socials container-fluid fixed-bottom">
-                <div class="row">
-                    <div class="col justify-content-center">
-                        <div class="social-icons">
-                            <p>
-                                <a href="https://github.com/egoullaud" target="_blank">
-                                    <i class="fab fa-github"></i></a>
+        <!--- FOOTER -->
+        <footer class="text-center" style="background-color:#3c455c;">
+            <!-- Grid container -->
+            <div class="container-fluid pt-1">
+                <!-- Section: Social media -->
+                <section>
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg text-light m-1"
+                        href="https://www.facebook.com/elizabeth.goullaud.3/" target="_blank" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg text-light m-1"
+                        href="https://www.instagram.com/egoullaud/" target="_blank" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://github.com/egoullaud"
+                        target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                    <!-- CodeSandbox -->
+                    <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://codesandbox.io/u/egoullaud"
+                        target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fa fa-square-o"></i></a>
 
+                    <!-- Grid container -->
 
-                                <a href="https://www.linkedin.com/in/elizabeth-goullaud/" target="_blank">
-                                    <i class="fab fa-linkedin"></i></a>
-
-
-                                <a href="https://codesandbox.io/u/egoullaud" target="_blank">
-                                    <i class="fa fa-square-o"></i></a>
-
-
-                                <a href="https://www.instagram.com/egoullaud/" target="_blank">
-                                    <i class="fab fa-instagram"></i></a>
-
-
-                                <a href="https://www.facebook.com/elizabeth.goullaud.3/" target="_blank">
-                                    <i class="fab fa-facebook-f"></i></a>
-                            </p>
-                        </div>
+                    <!-- Copyright -->
+                    <div class="text-light" style="background-color:#3c455c;">
+                        Created by Elizabeth Goullaud 2022
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <p> Copyright Elizabeth Goullaud 2022</p>
-                    </div>
-                </div>
+                </section>
+                <!-- Section: Social media -->
             </div>
+            <!-- Copyright -->
         </footer>
+
+
+
+
+        <!-- BOOTSTRAP JS LINKS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
     </div>
-    <!---------------------------------------------------------------- BOOTSTRAP JS LINKS ----------------------------------------------------------------------------->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

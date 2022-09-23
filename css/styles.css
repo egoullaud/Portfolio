@@ -2,7 +2,6 @@
 /* <!---------------------------------------------------------------- HTML/BODY STYLES -----------------------------------------------------------------------------> */
 html{
   height: 100%;
-
 }
 
 html,body {
@@ -11,174 +10,160 @@ html,body {
   padding: 0px;
   overflow-x: hidden; 
   font-size: 16px;
+  font-family: 'Darker Grotesque', sans-serif,
+  'Josefin Sans', sans-serif, 'Parisienne', cursive, 'Raleway',sans-serif;
 
 }
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1em;
-  color: white;
-  background-color: #111;
+  color: black;
+  margin:0;
+  padding:0;
 
 }
 
-
+.body .container{
+  margin:0;
+  padding:0;
+  width:100%;
+}
 /* <!---------------------------------------------------------------- HEADER AND FOOTER STYLES-----------------------------------------------------------------------------> */
 
- header .container-fluid {
-background-color: #111;
+ header{
+
 width: 100%;
 }
 .navbar{
-  font-family: 'Lora', sans-serif;
-  font-weight: bold;
-  background-color: #111;
-  text-transform: uppercase;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: normal;
+  color: black;
+  height: 40px;
 }
-
+.navbar img{
+  height: 40px;
+}
+.nav-link{
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: bold;
+}
 .navbar-nav ul li {
 
 padding-left: 20px;
+color: black;
 }
 
-footer .socials{
-  background-color: #111;
-}
-
-.social-icons p {
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items:center;
-}
-footer .social-icons i{
-  font-size: 1.3125em;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  background-color: white;
-  color: #222;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-}
-footer p {
-  font-family: 'Lora', sans-serif;
-}
 
 /* <!---------------------------------------------------------------- GLOBAL STYLES -----------------------------------------------------------------------------> */
 
 h1{
-  font-family: 'Lora', sans-serif;
-  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
 }
 span{
-  font-family: 'Lora';
+  font-family: 'Raleway', sans-serif;
   font-style:italic;
 }
 h2 {
-  font-size: 1.125em;
-  font-family: 'Lora', sans-serif;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
 }
-h4{ 
-  font-size: .75em;
-  font-family: 'Lora', sans-serif;
+h3{ 
+  font-size: 1em;
+  font-weight:bold;
+  font-family: 'Raleway', sans-serif;
 }
 h5, h6 {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 p{
-  font-family: 'Raleway', sans-serif;
+  font-family:'Darker Grotesque', sans-serif;
   font-size: 0.875em;
-  line-height: 21px;
+  line-height: 1em;
 }
 .btn{
-  font-family: 'Lora', sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 ul{
   margin: 0;
 }
 ul li{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Darker Grotesque', sans-serif;
 }
+/* display name and slogan */
+.display-name{
+  border-bottom: 1px solid black; 
+  font-size:3em; 
+  margin-bottom:0;
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
 
-/* <!---------------------------------------------------------------- HERO-AREA STYLES -----------------------------------------------------------------------------> */
+  }
+  .slogan{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: .875em;
+    padding-top:5px;
+  }
 
-.hero-area .container-fluid{
+/* <!------------------------ HERO-AREA STYLES -----------------------------------------------------------------------------> */
+.title-area{
+  background-color: #DDe2e3;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-size: cover;
-}
-.hero-area h1, .hero-area p{
-  padding: 20px;
-  background-color: #111;
-  border-radius: 2%;
-  color: white;
-  border: 1px solid white;
-}
-
-/* <!---------------------------------------------------------------- PROJECT STYLES -----------------------------------------------------------------------------> */
-
-
-.projects h6{
-  font-family: 'Raleway', sans-serif;}
-
-.project-list .card-img-top{
   width: 100%;
-  height: 15rem;
-  padding: 10px;
 }
-.project-list .card a {
-margin: 15px 10px;
-object-fit: contain;
-
+.hero-area h1{
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
+.hero-area .hero-image img{
+max-height: 30%;
+}
+
+/* <!- PROJECT HOME --> */
+
+.project-gallery {
+background-color:#9aacb8;
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.project-gallery img{
+  object-fit: cover;
+  max-height: auto;
+}
+.project-gallery p{
+  padding: 0 20px 0 20px;
+}
+.project-gallery h3{
+  padding-left: 20px;
+}
+
+/* PROJECT PAGE */
+.projects{
+  background-color: #DDe2e3;
+}
+.projects h1{
+  font-size: 1.5em;
+}
 .project-list .card {
-  border: 1px solid greenyellow;
-  background-color: #222;
-  color: white;
+  border: 1px solid black;
+  color: black;
   margin-bottom: 2rem;
   height: 100%;
-
-
-  }
-  .project-list .card .btn{
-  
-    border: 3px solid greenyellow;
-    color: white;
-    border-image-slice: 1;
-    background-color: #222;
-    text-decoration: none;
-    transition: all .4s ease;
-  }
-
-  .project-list .card .btn:hover, .btn:focus{
-    background: #222;
-    border: 3px solid yellow !important; 
-    box-shadow: #222 1px 0 10px;
-    text-decoration: underline;
-  }
-  .project-list .btn{
-  
-    border: 3px solid white;
-    color: white;
-    border-image-slice: 1;
-    background-color: #222;
-    text-decoration: none;
-    transition: all .4s ease;
-  }
-
-  .project-list .btn:hover, .btn:focus{
-    background: #222;
-    border: 3px solid greenyellow !important; 
-    box-shadow: #222 1px 0 10px;
-    text-decoration: underline;
-  }
+}
+ 
 .project-list h3{
   text-decoration: underline;
   font-size: 1.15em;
@@ -192,135 +177,149 @@ object-fit: contain;
 .project-list .card-list li{
   font-size: 0.75em;
 }
-
-
 .project-list .card-text{
   font-size: .875em;
 }
 
-/*-----------------------------ABOUT-PORTFOLIO HOME-----------*/
-.about-home .container-fluid{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-size: cover;
-}
-.about-home h1, .about-home p{
-  padding: 20px;
-  background-color: #111;
-  border-radius: 5%;
-  color: white;
-  border: 1px solid white;
-}
-.about-home .btn{
-  
-  border: 3px solid white;
-  color: white;
-  border-image-slice: 1;
-  background-color: #222;
-  text-decoration: none;
-  transition: all .4s ease;
+/*---ABOUT-HOME---*/
+
+.about-home h1{
+  text-align: center;
 }
 
-.about-home .btn:hover, .btn:focus{
-  background: #222;
-  
-  border: 3px solid greenyellow !important; 
-  box-shadow: #222 1px 0 10px;
-  text-decoration: underline;
-}
-/* <!---------------------------------------------------------------- ABOUT ME STYLES -----------------------------------------------------------------------------> */
-.about{
+/* <!-- ABOUT ME PAGE --> */
 
-  background-color: #111;
-}
 .about img{
   height: 50%;
 }
-.about h2{
-  text-decoration: underline;
-  text-align: center;
-}
+
 .about img{
   object-fit: contain;
 }
-
 .about .container-fluid{
-  background-color: #111;
-  border-bottom: 1px solid white;
-}
-.font-awesome i {
-color: white;
-font-size: 3em;
-align-items: center;
+  background-color: #DDe2e3;
 }
 
-/* <!---------------------------------------------------------------- SKILLS/PROCESS STYLES -----------------------------------------------------------------------------> */
-
-.process {
-  border-bottom: 1px solid white;
+ /* <!--SKILLS-HOME--> */
+.skills-home-gallery i{
+font-size: 1.875em;
+line-height: 1em;
+}
+.skills-home{
+ 
+background-color:#DDe2e3;
 }
 
+/* <!-- SKILLS/PROCESS STYLES --> */
 
+.techstack{
+  background-color: #DDe2e3;
+}
 
 .skills ul li{
   font-size: 0.875em;
 }
-.skills {
-  border: 2px solid white;
-}
 
-/* <!---------------------------------------------------------------- CONTACT STYLES-----------------------------------------------------------------------------> */
+/* <!-- CONTACT STYLES--> */
 
-
-
-.contact .container{
-  border: 2px solid greenyellow;
-  background-color: #222;
-}
-.contact .btn{
-  border: 3px solid greenyellow;
-  color: white;
-  border-image-slice: 1;
-  background-color: #222;
-  text-decoration: none;
-  transition: all .4s ease;
-}
-.contact .btn:hover, .btn:focus{
-  background: #222;
-  border: 3px solid white !important; 
-  box-shadow: #222 1px 0 10px;
-  text-decoration: underline;
+.contact-form  {
+  border: 2px solid black;
+  background-color: #DDe2e3;
 }
 
 .contact ul li{
   list-style: none;
 }
 .contact ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
-.contact .btn .submit-button {
-color: white;
-text-decoration: none;
-}
-/* <!------------------FORM SUBMIT---------------------------------------------- */
+
+/* <!--FORM SUBMIT-- */
 
 .form-submit .container{
-  border: 2px solid greenyellow;
-  background-color: #222;
+  border: 1px solid black;
+  background-color: #DDe2e3;
 }
-.form-submit  .btn{
-  border: 3px solid greenyellow;
-  color: white;
-  border-image-slice: 1;
-  background-color: #222;
-  text-decoration: none;
-  transition: all .4s ease;
+.form-submit h3{
+  font-weight: 400;
 }
-.form-submit  .btn:hover, .btn:focus{
-  background: #222;
-  border: 3px solid white !important; 
-  box-shadow: #222 1px 0 10px;
-  text-decoration: underline;
-}
+
+
+/* <!-- RESPONSIVE SCREENS--> */
+@media (min-width:768px){    
+ 
+ .hero-area h1{
+font-size: 1.875em;
+font-weight:normal;
+  }
+  h1{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  h3{
+    font-size: 1.15em;
+    font-weight: bold;
+  }
+  p{
+    font-size: 1em;
+    line-height: 1em;
+  }
+  
+  .display-name{
+    font-size: 6em;
+    font-weight: normal;
+  }
+  .slogan{
+    font-size: 1em;
+    padding-top: 10px;
+  }
+  .btn{
+    padding:0px 20px 5px 20px;
+    font-size: 1em;
+  }
+  .about-home{
+padding-bottom:60px;
+  }
+  .skills-home{
+    padding-bottom: 60px;
+  }
+  
+  .project-gallery .btn{
+    margin-top: 20px;
+  }
+  }  
+
+  @media (min-width:1000px){    
+    .hero-area h1{
+      font-size: 3.3em;
+    }
+
+    h1{
+      font-size: 3em;
+    }
+    h3{
+      font-size: 2.5em;
+    }
+    p{
+      font-size: 2em;
+      line-height: 1em;
+    }
+    .techstack ul li{
+      font-size: 2em;
+      line-height: 1em;
+    }
+    .display-name{
+      font-size: 7em;
+    }
+    .btn{
+      padding:0px 20px 5px 20px;
+      font-size: 1.8em;
+    }
+    .project-list .btn{
+      font-size: 1em;
+
+    }
+    
+  } 
