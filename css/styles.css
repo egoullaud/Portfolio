@@ -1,243 +1,329 @@
-
 /* <!---------------------------------------------------------------- HTML/BODY STYLES -----------------------------------------------------------------------------> */
-html{
+html {
   height: 100%;
+
 }
 
-html,body {
+html,
+body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   font-size: 16px;
   font-family: 'Darker Grotesque', sans-serif,
-  'Josefin Sans', sans-serif, 'Parisienne', cursive, 'Raleway',sans-serif;
+    'Josefin Sans', sans-serif, 'Parisienne', cursive, 'Raleway', sans-serif;
 
 }
 
-body{
+body {
   font-family: 'Darker Grotesque', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1em;
   color: black;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
+  cursor: none;
+}
+
+.body .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* cursor style */
+.cursor {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid rgba(30, 36, 42, 0.375);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  background-color: rgba(83, 104, 118, 0.6);
+  backdrop-filter: grayscale();
+  z-index: 4;
+}
+
+.link-grow {
+  transform: scale(1.2);
+  background: rgba(37, 52, 69, 0.6);
 
 }
 
-.body .container{
-  margin:0;
-  padding:0;
-  width:100%;
+.hovered-link {
+  border: 1px solid rgb(37, 52, 69);
+  background-color: rgb(58, 80, 105);
+  color: white;
 }
-/* <!---------------------------------------------------------------- HEADER AND FOOTER STYLES-----------------------------------------------------------------------------> */
 
- header{
+.logo-grow{
+  transform: scale(2);
+  background: rgba(58, 80, 105,0.6);
+}
+.logo-hover {
+ transform: scale(1.5);
+ transition: all 0.3s ease;
+transition-property: transform;
+}
 
-width: 100%;
+
+header {
+  width: 100%;
 }
-.navbar{
-  font-family: 'Darker Grotesque', sans-serif;
-  font-weight: normal;
-  height: 40px;
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #DDe2e3;
+  z-index: 2;
 }
-.navbar img{
-  height: 40px;
+
+.navbar img {
+  height: 50px;
+  padding-left: 10px;
 }
-.nav-link{
-  font-family: 'Darker Grotesque', sans-serif;
+
+.nav-link {
   font-weight: bold;
   text-transform: uppercase;
   color: black;
+  padding-left: 10px;
+  cursor: none;
 }
-.navbar-nav ul li {
 
-padding-left: 20px;
-
-}
-.navbar-nav{
-  background-color: rgba(221,226,227,0.6);
-  text-align:left;
-  width: 20%;
-  
-  
+.nav-item {
+  width: 100%;
 }
 
 
-/* <!---------------------------------------------------------------- GLOBAL STYLES -----------------------------------------------------------------------------> */
+.navbar-toggler-icon {
+  cursor: none;
+}
+#navbarNav ul{
+  width:30%;
+  background-color: #DDe2e3;
+  border: 1px solid black;
+  align-items: right;
+}
 
-h1{
+/* <!-- GLOBAL STYLES --> */
+
+h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
-span{
+
+span {
   font-family: 'Raleway', sans-serif;
-  font-style:italic;
+  font-style: italic;
 }
+
 h2 {
   font-size: 1em;
   font-family: 'Raleway', sans-serif;
 }
-h3{ 
+
+h3 {
   font-size: 1em;
-  font-weight:bold;
-  font-family: 'Raleway', sans-serif;
-}
-h5, h6 {
+  font-weight: bold;
   font-family: 'Raleway', sans-serif;
 }
 
-p{
-  font-family:'Darker Grotesque', sans-serif;
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Darker Grotesque', sans-serif;
   font-size: 0.875em;
   line-height: 1em;
 }
-.btn{
-  font-family: 'Darker Grotesque', sans-serif;
+
+.btn {
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: none;
 }
-ul{
+
+ul {
   margin: 0;
 }
-ul li{
-  font-family: 'Darker Grotesque', sans-serif;
+
+img {
+  cursor: none;
 }
+
+ul li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+
+}
+
 /* display name and slogan */
-.display-name{
-  border-bottom: 1px solid black; 
-  font-size:3em; 
-  margin-bottom:0;
+.display-name {
+  border-bottom: 1px solid black;
+  font-size: 3em;
+  margin-bottom: 0;
   font-family: 'Parisienne', cursive;
   font-weight: normal;
 
-  }
-  .slogan{
-    margin-top: 0;
-    text-transform: uppercase;
-    font-family:'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: .875em;
-    padding-top:5px;
-  }
+}
 
-/* <!------------------------ HERO-AREA STYLES -----------------------------------------------------------------------------> */
-.title-area{
+.slogan {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: .875em;
+  padding-top: 5px;
+}
+
+/* <!--HERO-AREA STYLES --> */
+.title-area {
   background-color: #DDe2e3;
   padding-top: 100px;
   padding-bottom: 100px;
   width: 100%;
 }
-.hero-area h1{
+
+.hero-area h1 {
   font-weight: 400;
   font-size: 1.5em;
 }
 
-.hero-area .hero-image img{
-max-height: 30%;
+.hero-area .hero-image img {
+  max-height: 30%;
 }
 
 /* <!- PROJECT HOME --> */
 
 .project-gallery {
-background-color:#9aacb8;
-background-size: 100%;
-background-position: center;
-background-repeat: no-repeat;
+  background-color: rgb(154, 172, 184);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
-.project-gallery img{
+
+.project-gallery img {
   object-fit: cover;
   max-height: auto;
 }
-.project-gallery p{
+
+.project-gallery p {
   padding: 0 20px 0 20px;
 }
-.project-gallery h3{
+
+.project-gallery h3 {
   padding-left: 20px;
 }
 
 /* PROJECT PAGE */
-.projects{
+.projects {
   background-color: #DDe2e3;
 }
-.projects h1{
+
+.projects h1 {
   font-size: 1.5em;
 }
+
 .project-list .card {
   border: 1px solid black;
   color: black;
   margin-bottom: 2rem;
   height: 100%;
 }
- 
-.project-list h3{
+
+.project-list h3 {
   text-decoration: underline;
   font-size: 1.15em;
   text-align: center;
   font-family: 'Lora', sans-serif;
 }
-.project-list .card-list{
+
+.project-list .card-list {
   margin-bottom: 10px;
 }
 
-.project-list .card-list li{
+.project-list .card-list li {
   font-size: 0.75em;
 }
-.project-list .card-text{
+
+.project-list .card-text {
   font-size: .875em;
 }
 
+
+
 /*---ABOUT-HOME---*/
 
-.about-home h1{
+.about-home h1 {
   text-align: center;
 }
 
 /* <!-- ABOUT ME PAGE --> */
 
-.about img{
+.about img {
   height: 50%;
-}
-
-.about img{
   object-fit: contain;
 }
-.about .container-fluid{
+
+.about {
   background-color: #DDe2e3;
 }
 
- /* <!--SKILLS-HOME--> */
-.skills-home-gallery i{
-font-size: 1.875em;
-line-height: 1em;
+/* <!--SKILLS-HOME--> */
+.skills-home-gallery i {
+  font-size: 2em;
+  line-height: 1em;
 }
-.skills-home{
- 
-background-color:#DDe2e3;
+
+.skills-home h1{
+  text-decoration: underline;
+}
+.skills-home {
+
+  background-color: #DDe2e3;
 }
 
 /* <!-- SKILLS/PROCESS STYLES --> */
 
-.techstack{
-  background-color: #DDe2e3;
+.techstack {
+  background-color: #9aacb8;
+  padding-bottom: 80px;
 }
 
-.skills ul li{
-  font-size: 0.875em;
+.techstack h1, .process h1{
+  font-size: 2em;
+  text-decoration: underline;
 }
+.techstack i {
+  font-size: 2em;
+  line-height: 2em;
+}
+
 
 /* <!-- CONTACT STYLES--> */
 
-.contact-form  {
+.contact-form {
   border: 2px solid black;
   background-color: #DDe2e3;
 }
 
-.contact ul li{
+.contact ul li {
   list-style: none;
 }
+
 .contact ul li a {
   color: black;
   text-decoration: none;
@@ -246,93 +332,152 @@ background-color:#DDe2e3;
 
 /* <!--FORM SUBMIT-- */
 
-.form-submit .container{
+.form-submit .container {
   border: 1px solid black;
   background-color: #DDe2e3;
 }
-.form-submit h3{
+
+.form-submit h3 {
   font-weight: 400;
 }
 
 
 /* <!-- RESPONSIVE SCREENS--> */
-@media (min-width:768px){    
- .navbar-nav{
-  width: 15%;
- }
- .hero-area h1{
-font-size: 1.875em;
-font-weight:normal;
+@media (min-width:768px) {
+  .navbar {
+    height: 8vh;
   }
-  h1{
+
+  .navbar img {
+    height: 50px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    padding-left: 10px;
+  }
+  #navbarNav ul{
+    width:15%;
+    
+  }
+
+  .hero-area h1 {
+    font-size: 1.875em;
+    font-weight: normal;
+  }
+
+  h1 {
     font-size: 1.5em;
     font-weight: bold;
   }
-  h3{
+
+  h3 {
     font-size: 1.15em;
     font-weight: bold;
   }
-  p{
+
+  p {
     font-size: 1em;
     line-height: 1em;
   }
-  
-  .display-name{
+
+  .display-name {
     font-size: 6em;
     font-weight: normal;
   }
-  .slogan{
+
+  .slogan {
     font-size: 1em;
     padding-top: 10px;
   }
-  .btn{
-    padding:0px 20px 5px 20px;
+
+  .btn {
+    padding: 0px 20px 5px 20px;
     font-size: 1em;
   }
-  .about-home{
-padding-bottom:60px;
-  }
-  .skills-home{
+
+  .about-home {
     padding-bottom: 60px;
   }
-  
-  .project-gallery .btn{
+
+  .skills-home {
+    padding-bottom: 60px;
+  }
+
+  .project-gallery .btn {
     margin-top: 20px;
   }
-  }  
+}
+
 /* DESKTOP */
-  @media (min-width:1000px){    
-    .navbar-nav{
-      width: 10%;
-     }
-    .hero-area h1{
-      font-size: 3.3em;
-    }
+@media (min-width:1000px) {
+  .navbar {
+    height: 10vh;
+    width: 100%;
+  }
+  #navbarNav ul{
+    width:60%;
+    background-color: #DDe2e3;
+    border: none;
+    align-items: right;
+  }
+  .navbar img {
+    height: 70px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
 
-    h1{
-      font-size: 3em;
-    }
-    h3{
-      font-size: 2.5em;
-    }
-    p{
-      font-size: 2em;
-      line-height: 1em;
-    }
-    .techstack ul li{
-      font-size: 2em;
-      line-height: 1em;
-    }
-    .display-name{
-      font-size: 7em;
-    }
-    .btn{
-      padding:0px 20px 5px 20px;
-      font-size: 1.8em;
-    }
-    .project-list .btn{
-      font-size: 1em;
+  .nav-item {
+    width: 30%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    padding: 0 20px 0 20px;
+    text-align: center;
+  }
 
-    }
-    
-  } 
+  #navbarNav{
+    justify-content: right;
+  }
+  .hero-area h1 {
+    font-size: 3.3em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+
+  .techstack ul li {
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: 400;
+  }
+
+  .display-name {
+    font-size: 7em;
+  }
+
+  .btn {
+    padding: 0px 20px 5px 20px;
+    font-size: 1.8em;
+  }
+
+  .project-list .btn {
+    font-size: 1em;
+
+  }
+
+}

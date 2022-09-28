@@ -21,63 +21,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Raleway&family=Josefin+Sans&family=Parisienne&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Raleway&family=Josefin+Sans&family=Parisienne&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="contact container-fluid gx-0">
+        <!-- Cursor -->
+        <div class="cursor"></div>
 
-        <!-------------------------------------------------------- HEADER -------------------------------------------------------------------------------->
+        <!-- HEADER -->
         <header>
-            <div class="container-fluid fixed-top">
-                <div class="row">
-                    <div class="col">
-                        <nav class="navbar navbar-light fixed-top">
-                            <div class="container-fluid">
-                                <a class="navbar-brand" href="../index.html"><img src="../img/hummingbird.png"></a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                                    aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
 
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/hummingbird.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
 
-                                    <li class="nav-item active">
-                                        <a href="../about/index.html" class="nav-link"> About</a>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <a href="../projects/index.html" class="nav-link"> Projects</a>
-                                    </li>
-                                    <li class="nav-item active">  
-                                            <a href ="../skills/index.html" 
-                                            class = "nav-link"
-                                            > Skills</a> </li>
-                                   
-                                    <li class="nav-item active">
-                                        <a href="../contact/index.html" class="nav-link"> Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item active">
+                                <a href="../about/index.html" class="nav-link"> About</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="../projects/index.html" class="nav-link"> Projects</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="../skills/index.html" class="nav-link"> Skills</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a href="../contact/index.html" class="nav-link"> Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
+            </nav>
+
         </header>
         <main>
             <div class="hero-area">
                 <div class="container-fluid">
                 </div>
             </div>
-            <!---------------------------------------------------------------- CONTACT----------------------------------------------------------------------------->
+            <!---- CONTACT-->
             <div class="contact">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-10 pt-5 pb-5 px-3">
                         <div class="contact-form  mt-5 mb-5 p-4">
                             <h1>Let's Connect!</h1>
-                            <form id = "Contact" class="row g-3" action="https://formsubmit.co/aa9ace4fce53046497cccee0c34e5c3f"
-                                method="POST">
+                            <form id="Contact" class="row g-3"
+                                action="https://formsubmit.co/aa9ace4fce53046497cccee0c34e5c3f" method="POST">
                                 <!-- Honeypot -->
                                 <input type="text" name="_honey" style="display: none;">
 
@@ -118,9 +115,9 @@
                     </div>
                 </div>
             </div>
-           
+
         </main>
-        <!---------------------------------------------------------------- FOOTER ----------------------------------------------------------------------------->
+        <!-- FOOTER -->
         <footer class="text-center fixed-bottom" style="background-color:#3c455c;">
             <!-- Grid container -->
             <div class="container justify-content-center pt-1">
@@ -158,7 +155,8 @@
         </footer>
 
     </div>
-    <!---------------------------------------------------------------- BOOTSTRAP JS LINKS ----------------------------------------------------------------------------->
+    <!-- JS LINKS -->
+    <script src="../app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
