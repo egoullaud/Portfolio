@@ -3,7 +3,7 @@
 
 Graduating from my Front End Web Development Bootcamp with SkillCrush required a portfolio website. This was my first portfolio I'd ever built, and the code includes two versions. 
 
-Version 2 can be viewed at https://egoullaud.github.io/portfolio/
+Version 2 can be viewed at https://egoullaud.github.io/portfolio-1/
 
 #### Version 1 
 The first version was incredibly simple - a black background with headings, content, and pages for projects, about, and contact. I was unhappy with the design and lack of JavaScript, so it was a temporary "first draft" of my portfolio.
