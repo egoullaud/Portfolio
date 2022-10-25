@@ -1,16 +1,32 @@
-Elizabeth Goullaud Portfolio
+## Introduction
+### Portfolio with HTML, CSS & JavaScript
 
-I created my portfoliow ebsite to showcase my projects, skills, and communicate my personality as a developer. It is a constant work in progress, as I have so many ideas and new skills to pour into it each week. 
+Graduating from my Front End Web Development Bootcamp with SkillCrush required a portfolio website. This was my first portfolio I'd ever built, and the code includes two versions. 
 
-Technologies used:
+Version 2 can be viewed at https://egoullaud.github.io/portfolio/
 
-This project currently uses HTML, CSS, JavaScript, and Bootstrap 5. I started with Bootstrap 5 because it is used widely, and allows for quick building and formatting. I was extremely happy with how quickly I got the hang of it and how many features are built in. I added JavaScript after the prototype was built to add interactivty to the page. 
+#### Version 1 
+The first version was incredibly simple - a black background with headings, content, and pages for projects, about, and contact. I was unhappy with the design and lack of JavaScript, so it was a temporary "first draft" of my portfolio.
 
-Challenges:
+##### Technologies 
+* HTML
+* CSS
+* Bootstrap 5
 
-My main challenge with this site was design and time management. I didn't want to pour weeks into this project, but also wanted the design to be unique and communicate my personality. Well, it did take weeks and multiple re-designs to get it to a place I was proud to showcase. I am always looking for ways to improve the site and add value to its pages, but also want to spend my time building projects and developing mnew skills. 
+#### Version 2
+The second version improved upon the design quality and incorporated JavaScript. I added a logo, photoshopped some custom pictures, and selected a color scheme for the site. I added JavaScript to add interactivity with the site page with the buttons, navigation, and cursor. 
+
+##### Technologies
+* HTML
+* CSS
+* Bootstrap 5
+* JavaScript
 
 
-Future ideas:
+## Challenges
 
-Next will be a large design overhaul, and I will likely start a new portfolio project altogether, as I want to rebuild and redesign it with React. I also want to incorporate TailwindCSS as it feels very similar to Bootstrap. I have trialed a couple tutorials with React to expand my knowledgebase and
+My main challenge with this site was design and time management. I didn't want to pour weeks into this project, but also wanted the design to be unique and effectively communicate my personality. In the end the first version of the site took much longer than anticipated, as I waffled on the design aspects. The second version improved the design and utilized JavaScript. It took a lot longer to develop the second version as I spent a large amount of time in the design process, picking brand logo and colors, and also researching website layout techniques. 
+
+## Next Steps
+
+The next step will be an entirely new portfolio made with React. This portfolio was a wonderful start to practicing my skills and improving the site as I learned new concepts, however I have an entirely new idea for a portfolio! 
